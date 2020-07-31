@@ -3,6 +3,7 @@ $(document).ready(function () {
     $('.menuButton').on('click', function () {
         console.log(':D');
         // open or close navbar
+        $('.menuButton').toggleClass('active');
         $('.sidebar').toggleClass('s-active');
         // close dropdowns
         $('.collapse.in').toggleClass('in');
